@@ -115,6 +115,34 @@ main {
   }
 }
 
+//Contact page
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+
+  div {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut();
+
+    &:hover {
+      padding: 1rem 2rem;
+      background: $secondary-color;
+      color: setTextColor($secondary-color);
+
+      span {
+        color: setTextColor($secondary-color);
+      }
+    }
+  }
+}
+
 // Work/Proyects
 
 .projects {
