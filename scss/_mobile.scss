@@ -46,9 +46,10 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait150.jpg");
       width: 125px;
       height: 125px;
+      background-position: center top;
     }
   }
 
