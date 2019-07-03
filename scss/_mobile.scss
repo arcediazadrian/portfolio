@@ -102,3 +102,72 @@
     grid-template-columns: 1fr;
   }
 }
+
+@include mediaSm {
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 3rem;
+    }
+  }
+
+  .bio-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+
+      &:hover {
+        padding: 0.4rem 1.4rem;
+      }
+    }
+  }
+
+  main#about {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .bio {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    .job {
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  div.menu-branding {
+    .portrait {
+      width: 100px;
+      height: 100px;
+      background-position-y: -10px;
+    }
+  }
+
+  .menu {
+    .nav-link {
+      font-size: 20px;
+    }
+  }
+
+  main#home {
+    .lg-heading {
+      font-size: 2.5rem;
+    }
+
+    .sm-heading {
+      font-size: 1rem;
+    }
+  }
+}
