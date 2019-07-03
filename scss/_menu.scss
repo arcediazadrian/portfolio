@@ -88,9 +88,10 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpg");
+      width: 150px;
+      height: 150px;
+      background: url("../img/my_portrait.jpg");
+      object-fit: contain;
       border: solid 3px $secondary-color;
       border-radius: 50%;
     }
