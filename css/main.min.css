@@ -419,7 +419,7 @@ main#home h1 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 376px) {
   main#home h1 {
     margin-top: 10vh;
   }
@@ -443,7 +443,7 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 300px) {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
