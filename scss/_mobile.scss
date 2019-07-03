@@ -75,6 +75,29 @@
     margin-top: 10vh;
   }
 
+  * {
+    margin-left: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 5rem;
+    }
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+
+      &:hover {
+        padding: 0.5rem 1.5rem;
+      }
+    }
+  }
+
   .projects {
     grid-template-columns: 1fr;
   }
